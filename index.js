@@ -28,7 +28,7 @@ app.post('/create_preference', async (req, res) => {
                 },
             ],
             back_urls: {
-                success: "http://localhost:3000/",
+                success: "https://shopping-card-blush.vercel.app/",
                 failure: 'https://google.com',
                 pending: 'https://google.com',
             },
